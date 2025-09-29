@@ -2,12 +2,12 @@
 
 
 <template>
-  <nav>
+  <!-- <nav>
     <RouterLink to="/">Go to Home</RouterLink>
     <br>
     <RouterLink to="/about">Go to About</RouterLink>
   </nav>
-  <main>
+  <main> -->
     <RouterView />
-  </main>
+  <!-- </main> -->
 </template>

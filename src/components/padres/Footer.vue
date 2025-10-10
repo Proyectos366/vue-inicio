@@ -3,7 +3,6 @@ import { computed } from "vue";
 
 interface Props {
   class?: string;
-  style?: string | Array<string> | Record<string, string>;
 }
 
 const props = defineProps<Props>();
@@ -14,7 +13,7 @@ const mergedClass = computed(() => {
 </script>
 
 <template>
-  <span :class="mergedClass">
+  <footer :class="mergedClass">
     <slot />
-  </span>
+  </footer>
 </template>

@@ -5,8 +5,8 @@ import img1 from "@/assets/img/image-product-1.jpg";
 import img2 from "@/assets/img/image-product-2.jpg";
 import img3 from "@/assets/img/image-product-3.jpg";
 import img4 from "@/assets/img/image-product-4.jpg";
-import Img from "./padres/Img.vue";
-import Div from "./padres/Div.vue";
+import Img from "@/components/padres/Img.vue";
+import Div from "@/components/padres/Div.vue";
 
 const images = [img1, img2, img3, img4];
 

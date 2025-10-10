@@ -1,20 +1,20 @@
 <script setup lang="ts">
-import CarritoSvg from "../CarritoSvg.vue";
-import Button from "../padres/Button.vue";
-import Div from "../padres/Div.vue";
-import P from "../padres/P.vue";
-import Section from "../padres/Section.vue";
-import Span from "../padres/Span.vue";
-import Titulos from "../Titulos.vue";
+import CarritoSvg from "@/views/components/home/CarritoSvg.vue";
+import Button from "@/components/padres/Button.vue";
+import Div from "@/components/padres/Div.vue";
+import P from "@/components/padres/P.vue";
+import Section from "@/components/padres/Section.vue";
+import Span from "@/components/padres/Span.vue";
+import Heading from "@/components/Heading.vue";
 </script>
 
 <template>
   <Section class="py-10 ms-4">
-    <Titulos indice="h6" class="text-xs mb-3">SNEAKER COMPANY</Titulos>
-    <Titulos indice="h1" class="text-3xl font-semibold mb-5"
-      >Fall Limited Edition Sneakers</Titulos
+    <Heading indice="h6" class="text-xs mb-3 opacity-60">SNEAKER COMPANY</Heading>
+    <Heading indice="h1" class="text-3xl font-semibold mb-5"
+      >Fall Limited Edition Sneakers</Heading
     >
-    <P class="text-xs opacity-50 mb-3"
+    <P class="text-xs opacity-60 mb-3"
       >These low-profile sneakers are your perfect casual wear companion.
       Featuring a durable rubber outer sole, they'll withstand everything the
       weather con after.
@@ -35,7 +35,7 @@ import Titulos from "../Titulos.vue";
         <Button class="text-[hsl(26_100%_55%)] font-semibold text-xl">+</Button>
       </Div>
       <Button
-        class="flex items-center gap-2 bg-[hsl(26_100%_55%)] py-2 px-14 rounded-md text-[10px] font-semibold"
+        class="flex items-center gap-2 bg-[hsl(26_100%_55%)] py-2 px-8 rounded-md text-[10px] font-semibold"
         ><CarritoSvg :width="12" :height="12" /> Add to cart</Button
       >
     </Div>

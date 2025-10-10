@@ -4,7 +4,7 @@ import HeaderPagina from "@/views/components/header/HeaderPagina.vue";
 
 <template>
   <div>
-    <HeaderPagina titulo="About" />
-    <h2>Pagina de About</h2>
+    <HeaderPagina />
+    <h2>Pagina de Collections</h2>
   </div>
 </template>

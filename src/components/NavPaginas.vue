@@ -257,7 +257,7 @@ watch(
     </Div>
 
     <Div class="flex items-center gap-8">
-      <Div class="opacity-60">
+      <Div class="opacity-60 hover:opacity-100 transition-opacity duration-300">
         <DropdowsCarrito />
       </Div>
       <Dropdows />
